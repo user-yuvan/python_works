@@ -36,7 +36,7 @@ data = data.head(25)
 print(data)
 ```
 This selects the top 25 rows from the sorted data DataFrame, representing the regions with the highest interest in the specified query.
-![list](/screenshots/list.png)
+![list](screenshots/list.png)
 
 `data.reset_index().plot(x = "geoName", y = query, kind = "bar")`
 
@@ -47,7 +47,7 @@ plt.style.use('fivethirtyeight')
 plt.show()
 ```
 These lines set the plot style to 'fivethirtyeight', a predefined style from matplotlib, and display the plot on the screen.
-![bar_chart](/screenshots/bar_chart.png)
+![bar_chart](screenshots/bar_chart.png)
 
 ```python
 data = TrendReq(hl='en-US', tz=360)
@@ -74,7 +74,7 @@ plt.ylabel('Total Count')
 plt.show()
 ```
 These lines set the plot style to 'fivethirtyeight', set the title, x-axis label, and y-axis label for the plot, and display the plot on the screen.
-![trends](/screenshots/trends.png)
+![trends](screenshots/trends.png)
 
 ## Reference
 - __[Search Analysis](https://thecleverprogrammer.com/2021/04/27/google-search-analysis-with-python/)__
